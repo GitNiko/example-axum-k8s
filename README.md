@@ -5,7 +5,7 @@ Example showing how to integrate k8s with axum and kube-rs.
 - installed minikube.
 - installed kubectl.
 - proxy 8443 port, `kubectl proxy --port=8443 --address='0.0.0.0' --accept-hosts='.*'`.
--`kubectl config view --minify --flatten > kubeconfig.yaml`,  download it to the source root directory.
+- `kubectl config view --minify --flatten > kubeconfig.yaml`,  download it to the source root directory.
 - run app `KUBECONFIG=$(pwd)/kubeconfig.yaml cargo run`.
 
 ## troubleshooting
